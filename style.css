@@ -1,0 +1,87 @@
+body {
+
+    border: 0;
+
+
+}
+
+
+/*       header       */
+
+
+
+/*       header slut      */
+
+
+
+
+
+
+/*       undervisning       */
+
+img {
+
+    width: 300px;
+
+
+}
+
+.fag {
+
+    width: 100%;
+    font-family: limestone;
+
+}
+
+.steder {
+    width: 100%;
+    font-family: limestone;
+}
+
+
+/*       undervisning slut      */
+
+
+
+
+/*       billetter      */
+
+.billetter {}
+
+button {
+
+    text-decoration: none;
+}
+
+/*       billetter slut      */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*       footer       */
+
+#footer {
+
+    padding: 5vw;
+    width: 100%;
+    background-color: #adadad;
+    font-family: limestone;
+
+}
+
+/*       footer slut       */
