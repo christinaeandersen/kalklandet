@@ -1,8 +1,6 @@
 body {
-
     border: 0;
-
-
+    font-family: limestone;
 }
 
 
@@ -13,24 +11,25 @@ body {
 /*       header slut      */
 
 
+/*       besøg os       */
 
+#splash {}
 
+#besoeg-os {
+    margin: 5vw;
+    line-height: 22px;
+}
+
+/*       besøg os slut       */
 
 
 /*       undervisning       */
 
-img {
-
-    width: 300px;
-
-
-}
+img {}
 
 .fag {
-
     width: 100%;
     font-family: limestone;
-
 }
 
 .steder {
@@ -46,11 +45,28 @@ img {
 
 /*       billetter      */
 
-.billetter {}
+#billetter {
+    margin: 5vw;
+}
 
-button {
-
+a {
     text-decoration: none;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 10vh;
+
+}
+
+a:hover {
+    color: dimgrey;
+}
+
+a:visited {
+    color: rebeccapurple;
+}
+
+a:active {
+    color: yellow;
 }
 
 /*       billetter slut      */
@@ -67,21 +83,32 @@ button {
 
 
 
+#bestil {}
+
+#gaa-til-betaling {
+    background-image: url(svg/betaling.svg);
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 10vh;
+}
+
+input {
+    width: 60vw;
+    height: 4vh;
+}
 
 
-
-
+#ordre {}
 
 
 /*       footer       */
-
 #footer {
-
+    margin-top: 5vw;
     padding: 5vw;
     width: 100%;
     background-color: #adadad;
     font-family: limestone;
-
+    text-align: center;
 }
 
 /*       footer slut       */
