@@ -5,6 +5,111 @@ body {
 
 
 /*       header       */
+/* MENU START */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    top: 0;
+    font-family: Arial, cursive;
+
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #F3061A;
+    transition: 0.5s;
+    color: white;
+
+}
+
+/*MENU SLUT*/
+/*BURGERMENU*/
+#menuknap {
+    text-align: left;
+    font-size: 3rem;
+    cursor: pointer;
+    color: black;
+    font-family: 'Comfortaa', cursive;
+}
+
+#menu {
+    transition: transform 0.3s;
+    list-style-type: none;
+    transform-origin: top left;
+
+
+    padding-bottom: 20px;
+    background-color: rgba(226, 226, 226, 0.58);
+    width: 200px;
+}
+
+#burger {
+    width: 200px;
+    z-index: 2;
+    margin-left: 20px;
+}
+
+#menu li {
+    margin: 10px;
+    display: block;
+
+
+
+}
+
+#menu a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #000000;
+    text-align: left;
+
+
+}
+
+#menu a:hover {
+    color: white;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+/*MEDIA*/
+
+@media only screen and (min-width: 900px) {
+
+
+    #burger {
+        display: none;
+    }
+
+    .navbar {
+        display: block
+    }
+}
+
+/* MEDIA SLUT */
+
+
+/*BURGERMENU SLUT*/
 
 
 
