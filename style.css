@@ -1,11 +1,17 @@
 body {
     border: 0;
     font-family: limestone;
+    margin: 0;
 }
 
 
 /*       header       */
 /* MENU START */
+
+header {
+    background: #3E3D3D;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -15,28 +21,30 @@ ul {
     width: 100%;
     top: 0;
     font-family: Arial, cursive;
-
-
 }
 
+/*
 li {
     float: left;
 }
+*/
 
+/*
 li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
+*/
 
-li a:hover {
-    background-color: #F3061A;
-    transition: 0.5s;
-    color: white;
-
+li a {
+    display: flex;
+    justify-content: center;
 }
+
+li a:hover {}
 
 /*MENU SLUT*/
 /*BURGERMENU*/
@@ -44,7 +52,7 @@ li a:hover {
     text-align: left;
     font-size: 3rem;
     cursor: pointer;
-    color: black;
+    color: #DEDEDE;
     font-family: 'Comfortaa', cursive;
 }
 
@@ -52,11 +60,8 @@ li a:hover {
     transition: transform 0.3s;
     list-style-type: none;
     transform-origin: top left;
-
-
-    padding-bottom: 20px;
-    background-color: rgba(226, 226, 226, 0.58);
-    width: 200px;
+    /*    padding-bottom: 20px;*/
+    /*    width: 200px;*/
 }
 
 #burger {
@@ -65,18 +70,15 @@ li a:hover {
     margin-left: 20px;
 }
 
+
 #menu li {
     margin: 10px;
     display: block;
-
-
-
 }
 
 #menu a {
     font-size: 1.2rem;
     text-decoration: none;
-    color: #000000;
     text-align: left;
 
 
