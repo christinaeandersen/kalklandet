@@ -9,13 +9,133 @@
 </head>
 
 <body>
+    <header>
+        <nav class="navbar hidden">
+            <ul>
+                <li><a href="index.html"><img src="logo/Logo.svg" alt=""></a></li>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="besoeg.html">Besøg os</a></li>
+                <li><a href="undervisning.html">Undervisning</a></li>
+                <li><a href="aktuelt.html">Aktuelt</a></li>
+                <li><a href="billetter.html">Køb billetter</a></li>
+                <li><a href="#footer">Kontakt</a></li>
+            </ul>
+        </nav>
 
-    <section id="billetter">
-       <h1>KØB DIN BILLET HER</h1>
-        <a href="geomuseum.html">GEOMUSEUM FAXE</a><br>
-        <a href="koldkrigsmuseum.html">KOLDKRIGSMUSEUM</a><br>
-        <a href="stevns-klint.html">STEVNS KLINT</a>
+
+        <nav id="burger">
+            <div id="menuknap">☰</div>
+            <ul id="menu" class="hidden">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="menu.html">Besøg os</a></li>
+                <li><a href="om_og_kontakt.html">Undervisning</a></li>
+                <li><a href="om_og_kontakt.html">Aktuelt</a></li>
+                <li><a href="om_og_kontakt.html">Køb billetter</a></li>
+                <li><a href="#footer">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="top">
+        <h1>KØB DIN BILLET HER</h1>
+        <div class="left-1">
+            <h2>BOOKINGMULIGHEDER</h2>
+            <a href="#one">PRISER OG BOOKING</a><br>
+            <a href="#two">TURE PÅ EGEN HÅND</a>
+            <a href="#three">UNDERVISNINGSPAKKER</a>
+        </div>
     </section>
+
+    <section id="priser_booking">
+        <div class="left-2">
+            <h3>PRISER OG BOOKING</h3>
+            <p>Vi tilbyder undervisning mandag til fredag kl. 09-17</p>
+            <p>Undervisning i Kalklandet foregår i autentiske miljøer, <br> både udendørs og indenfor på vores museer.</p>
+            <p>Undervisningsforløb 2 timer: 1.000</p>
+            <p></p>
+        </div>
+
+        <div class="right-1">
+            <h3>ENTRÉPRISER</h3>
+            <p>Voskne: 60</p>
+            <p>Pensionister og studerende: 50</p>
+            <p>Børn/unge 0-17 år: Fri entré</p>
+            <p>Leje af hammer og mejsel: 20 pr. sæt</p>
+
+            <div class="billetter">
+                <a href="billetter-faxe.html">GEOMUSEUM FAXE</a><br>
+                <a href="billetter-kold.html">KOLDKRIGSMUSEUM</a><br>
+                <a href="billetter-stevns.html">STEVNS KLINT</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="ture">
+        <div class="tekst">
+            <h2>TURE PÅ EGEN HÅND</h2>
+            <p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.</p>
+        </div>
+    </section>
+
+    <section id="ture_tekst">
+        <div class="left-3">
+            <p>Pea horseradish azuki bean lettuce avocado asparagus okra.
+                Kohlrabi radish okra azuki bean corn fava bean mustard tigernut jícama green bean celtuce collard greens avocado quandong fennel gumbo black-eyed pea. Grape silver beet watercress potato tigernut corn groundnut. Chickweed okra pea winter purslane coriander yarrow sweet pepper radish garlic brussels sprout groundnut summer purslane earthnut pea tomato spring onion azuki bean gourd. Gumbo kakadu plum komatsuna black-eyed pea green bean zucchini gourd winter purslane silver beet rock melon radish asparagus spinach.</p>
+        </div>
+        <div class="right-2">
+            <p>Beetroot water spinach okra water chestnut ricebean pea catsear courgette summer purslane. Water spinach arugula pea tatsoi aubergine spring onion bush tomato kale radicchio turnip chicory salsify pea sprouts fava bean. Dandelion zucchini burdock yarrow chickpea dandelion sorrel courgette turnip greens tigernut soybean radish artichoke wattle seed endive groundnut broccoli arugula.</p>
+        </div>
+    </section>
+
+
+
+    <!--   jeg giver også footer et ID sådan så jeg kan prescrolle direkte fra nav "kontakt" til footer-->
+    <footer id="footer">
+        <div class="boks_1">
+            <h1>ÅBNINGSTIDER</h1>
+            <p>MANDAG - ONSDAG 10:00 - 18:00</p>
+            <p>TORSDAG - FREDAG 10:00 - 17:00</p>
+            <p>LØRDAG 11:00 - 17:00</p>
+        </div>
+
+        <div class="boks_2">
+            <h1>PRISER</h1>
+            <p>VOKSNE 60 KR.</p>
+            <p>PENSIONISTER OG STUDERENDE 50 KR.</p>
+            <p>BØRN/UNGE 0-17 ÅR: FRI ENTRÈ</p>
+            <p>LEJE AF HAMMER OG MEJSEL 20 KR. PR. SÆT</p>
+        </div>
+        <div class="boks_3">
+            <h1>KONTAKT</h1>
+            <p>GEOMUSEUM@OESM.DK</p>
+            <p>TELEFON 56 50 28 06</p>
+            <p>ALLE HVERDAGE MELLEM KL. 09:00 OG 15:00</p>
+        </div>
+    </footer>
+
+    <section class="container_kort">
+        <aside class="footer_tekst">
+            <h1>Lorem Ipsum</h1>
+            <p> Ne elit voluptate incididunt. Ut ita tamen fabulas, pariatur in ingeniis an anim
+                excepteur litteris, e cupidatat fidelissimae, noster proident coniunctione o
+                eiusmod enim quibusdam, mentitum aut sint fabulas, an sunt lorem eu nescius. Id
+                ubi ipsum eram fugiat. Ipsum te expetendis o sint, irure laborum ex noster
+                summis qui ea nulla magna eu incididunt nam ab ea exquisitaque. Ea fugiat
+                cupidatat aut nam se concursionibus ab probant velit anim e quid, possumus ea
+                illum officia. Veniam litteris te relinqueret de ad quo fore proident, amet
+                laborum a dolor lorem, quem proident de commodo ne deserunt ea quae, tempor iis
+                excepteur ubi ingeniis exercitation ea offendit, pariatur ita aute. Ex quis anim
+                aute arbitror ad ita varias firmissimum. A fugiat senserit comprehenderit,
+                eiusmod veniam quid consequat minim a iis noster nescius incurreret, e an
+                transferrem, arbitror dolor sunt ne dolore ab esse doctrina o culpa magna te ne
+                aut arbitrantur an quibusdam aliqua dolor qui summis.</p>
+        </aside>
+        <div class="kort">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51929.749367493954!2d12.408874405869168!3d55.301164527304095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652e275cdcf5869%3A0x92fe4879c900f5da!2sStevns+Naturcenter!5e0!3m2!1sda!2sdk!4v1556126997634!5m2!1sda!2sdk" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+    </section>
+
 
     <script src="script.js"></script>
 </body>

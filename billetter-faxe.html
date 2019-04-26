@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,81 +10,89 @@
 
 <body>
 
-    <section id="bestil">
-        <header>
-            <div class="navbar hidden">
-                <ul>
-                    <li><a href="index.html">Forside</a></li>
-                    <li><a href="menu.html">Besøg os</a></li>
-                    <li><a href="om_og_kontakt.html">Undervisning</a></li>
-                    <li><a href="om_og_kontakt.html">Nyheder</a></li>
-                    <li><a href="om_og_kontakt.html">Køb billetter</a></li>
-                </ul>
+    <header>
+        <nav class="navbar hidden">
+            <ul>
+                <li><a href="index.html"><img src="logo/Logo.svg" alt=""></a></li>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="besoeg.html">Besøg os</a></li>
+                <li><a href="undervisning.html">Undervisning</a></li>
+                <li><a href="aktuelt.html">Aktuelt</a></li>
+                <li><a href="billetter.html">Køb billetter</a></li>
+                <li><a href="#footer">Kontakt</a></li>
+            </ul>
+        </nav>
+
+
+        <nav id="burger">
+            <div id="menuknap">☰</div>
+            <ul id="menu" class="hidden">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="menu.html">Besøg os</a></li>
+                <li><a href="om_og_kontakt.html">Undervisning</a></li>
+                <li><a href="om_og_kontakt.html">Aktuelt</a></li>
+                <li><a href="om_og_kontakt.html">Køb billetter</a></li>
+                <li><a href="#footer">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="formular">
+        <h1><i class="fas fa-shipping-fast"></i>Bestil billetter her</h1>
+        <div class="udfyld">
+            <div class="privat">
+                <h2>Personoplysninger</h2>
+                <div class="name">
+                    <div>
+                        <label for="f-name">Fornavn</label>
+                        <input type="text" name="f-name">
+                    </div>
+                    <div>
+                        <label for="l-name">Efternavn</label>
+                        <input type="text" name="l-name">
+                    </div>
+                </div>
+                <div class="street">
+                    <label for="name">Gade</label>
+                    <input type="text" name="address">
+                </div>
+                <div class="address-info">
+                    <div>
+                        <label for="city">By</label>
+                        <input type="text" name="city">
+                    </div>
+                    <div>
+                        <label for="zip">Postnummer</label>
+                        <input type="text" name="zip">
+                    </div>
+                </div>
             </div>
 
+            <div class="kortinformation">
+                <h2 class="kort_text">Kortinformation</h2>
+                <div class="card-num">
+                    <label for="card-num">Kortnummer</label>
+                    <input type="text" name="card-num">
+                </div>
 
-
-            <nav id="burger">
-                <div id="menuknap">☰</div>
-                <ul id="menu" class="hidden">
-                    <li><a href="index.html">Forside</a></li>
-                    <li><a href="menu.html">Besøg os</a></li>
-                    <li><a href="om_og_kontakt.html">Undervisning</a></li>
-                    <li><a href="om_og_kontakt.html">Nyheder</a></li>
-                    <li><a href="om_og_kontakt.html">Køb billetter</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="fornavn">
-            <h2>FORNAVN</h2>
-            <input type="text" name="fornavn">
+                <div class="card-info">
+                    <div>
+                        <label for="card-num">Udløbsdato</label>
+                        <input type="text" name="expire">
+                    </div>
+                    <div>
+                        <label for="card-num">CCV</label>
+                        <input type="text" name="security">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="efternavn">
-            <h2>EFTERNAVN</h2>
-            <input type="text" name="efternavn">
+        <div class="buttons">
+            <button>Bekræft</button>
+            <button>Tilbage til kurv</button>
         </div>
-        <div class="adresse">
-            <h2>ADRESSE</h2>
-            <input type="text" name="adresse">
-        </div>
-        <div class="firma">
-            <h2>FIRMA</h2>
-            <input type="text" name="firma">
-        </div>
-        <div class="post">
-            <h2>POSTNUMMER</h2>
-            <input type="text" name="post">
-        </div>
-        <div class="by">
-            <h2>BY</h2>
-            <input type="text" name="by">
-        </div>
-        <div class="email">
-            <h2>EMAIL</h2>
-            <input type="text" name="email">
-        </div>
-        <div class="nummer">
-            <h2>TELEFON</h2>
-            <input type="text" name="nummer">
-        </div>
-        <div class="antal">
-            <h2>ANTAL BILLETTER</h2>
-            <input type="text" name="antal">
-        </div>
-        <button>GÅ TIL BETALING</button>
     </section>
-
-    <!--    din ordre    -->
-    <section id="ordre">
-        <div class="kvittering">
-
-        </div>
-        <input type="checkbox" name="vilkaar">
-        <p>JEG ACCEPTERER BILKÅR OG BETINGELSER</p>
-
-    </section>
-
-
     <script src="script.js"></script>
 </body>
+
 </html>
